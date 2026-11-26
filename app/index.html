@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HomeLedger — Household Budget, kept on this device</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topnav" role="navigation" aria-label="Main navigation">
+    <a class="brand" href="#/">HomeLedger</a>
+    <nav class="nav-links">
+      <a href="#/" data-route="dashboard">Dashboard</a>
+      <a href="#/transactions" data-route="transactions">Transactions</a>
+      <a href="#/budgets" data-route="budgets">Budgets</a>
+      <a href="#/add" data-route="add">Add</a>
+    </nav>
+  </header>
+  <main id="app" role="main"></main>
+  <footer>
+    <p>HomeLedger — the Rivera household budget, kept on this device.</p>
+    <p id="status" aria-live="polite"></p>
+  </footer>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
